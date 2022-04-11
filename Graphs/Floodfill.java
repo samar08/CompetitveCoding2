@@ -1,4 +1,4 @@
-class Floodfill {
+public class Floodfill {
     public void dfs(int x,int y,int[][]image,int color,int newcolor,int m,int n,boolean[][]vis){
         if(x<0 || y<0 || x>=m || y>=n || image[x][y]!=color || vis[x][y]==true){
             return;
