@@ -36,7 +36,9 @@ for te in range(t):
     A=[]
     for i in range(n):
         A.append(i+1)
-        print(i+1,end=" ")
+        #print(i+1,end=" ")
+    for i in A:
+        print(i,end=" ")
     stdout.flush()
     #B=list(map(int,input().split(" ")))
     B=[]
@@ -53,7 +55,7 @@ for te in range(t):
         dp.append(mat)
     temp=[]
     out=[]
-    #op=findsubset(0,0,subsum,A,tn,dp,temp,out)
+    op=findsubset(0,0,subsum,A,tn,dp,temp,out)
     for i in out:
         print(i,end=" ")
     stdout.flush()
