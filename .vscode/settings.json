@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "Maths",
         "Graphs",
-        "Arrays"
+        "Arrays",
+        "Two_pointers"
     ]
 }
