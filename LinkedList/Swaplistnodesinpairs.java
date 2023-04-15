@@ -21,3 +21,37 @@ public class Solution {
         
     }
 }
+// Another similar approach
+class Solution {
+    public ListNode swapPairs(ListNode head) {
+        if(head==null || head.next==null){
+            return head;
+        }
+        ListNode head2=null,s=head,f=s.next,t=f.next;
+       
+        while(f!=null || t!=null){
+            if(t!=null && t.next!=null){
+                 s.next=t.next;
+            }
+            else{
+                s.next=t;
+            }
+           
+            f.next=s;
+            if(head2==null){
+                head2=f;
+            }
+            if(t==null || t.next==null){
+                break;
+            }
+            else{
+                s=t;
+                f=t.next;
+              
+                t=f.next;
+            }
+        }
+        return head2;
+        
+    }
+}
