@@ -33,31 +33,6 @@ class Solution {
             String b=equations.get(i).get(1);
             HashMap<String,Double> submap1=map.getOrDefault(a,new HashMap<String,Double>());
             HashMap<String,Double> submap2=map.getOrDefault(b,new HashMap<String,Double>());
-            for(String key: submap1.keySet()){
-                    if(key!=b){
-                    HashMap<String,Double>submap3=map.getOrDefault(key,new HashMap<String,Double>());
-                    double res=values[i]/submap1.get(key);
-                    double res2=(double)(1d/res);
-                    submap3.put(b,res);
-                    submap2.put(key,res2);
-                    map.put(key,submap3);
-                    map.put(b,submap2);
-                    }
-                
-            }
-            for(String key:submap2.keySet()){
-                if(key!=a){
-                    HashMap<String,Double>submap3=map.getOrDefault(key,new HashMap<String,Double>());
-                    
-                    double res2=(double)(1d/submap2.get(key));
-                    double res=(res2)/values[i];
-                    submap3.put(a,res);
-                    submap1.put(key,(double)((1d)/res));
-                    map.put(key,submap3);
-                    map.put(a,submap1);
-
-                }
-            }
             submap1.put(b,values[i]);
             double rev=(double)(1d/values[i]);
             submap2.put(a,rev);
