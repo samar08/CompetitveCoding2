@@ -25,9 +25,9 @@ public class Dijkstrasproblemgfg {
             int[] node=pq.poll();
             int u=node[0];
             int weight=node[1];
-            if(dist[u]>weight){
-                dist[u]=weight;
-            }
+            // if(dist[u]>weight){
+            //     dist[u]=weight;
+            // }
             if(map.containsKey(u)==true){
                 for(int[] edges: map.get(u)){
                 int v=edges[0];
