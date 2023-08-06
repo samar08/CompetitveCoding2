@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "Two_pointers",
         "Maths",
         "Graphs",
         "Arrays",
-        "Two_pointers"
+        "Stack"
     ]
 }
