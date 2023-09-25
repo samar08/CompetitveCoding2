@@ -2,9 +2,10 @@
     "java.project.sourcePaths": [
         "Two_pointers",
         "Stack",
+        "Sorting",
         "Maths",
         "Graphs",
         "Arrays",
-        "Sorting"
+        "Java"
     ]
 }
