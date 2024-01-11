@@ -35,7 +35,7 @@ class FindAllPrimeFactors
 
 	public static void main (String[] args)
 	{
-		int n = 315;
+		int n = 121;
 		primeFactors(n);
 	}
 }
