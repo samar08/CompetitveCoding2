@@ -1,6 +1,4 @@
-/*
- * https://leetcode.com/problems/find-pivot-index/description/
- */
+
 class Solution {
     public int pivotIndex(int[] nums) {
         int i,n=nums.length;
