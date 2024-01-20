@@ -1,3 +1,6 @@
+/*
+ * Initialize all the three threads
+ */
 class Thread1 extends Thread{
     Display display;
     String name="Thread1";
@@ -28,6 +31,13 @@ class Thread3 extends Thread{
         display.print(name,2);
     }
 }
+/*
+ * Display class contains code for printing the current executing thread and the sequence number if it is
+ * not locked.
+ * 
+ * Display class uses the synchronized block to synchronize the threads from accessing the code which 
+ * checks if the current thread has to execute or not.
+ */
 class Display{
     int counter=0;
     int max=10;
