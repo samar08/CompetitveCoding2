@@ -8,7 +8,8 @@
         "Java",
         "Hashing",
         "Graphs",
+        "DesignPatterns/Singleton",
         "Arrays",
-        "DesignPatterns/Singleton"
+        "Recursion"
     ]
 }
