@@ -36,3 +36,30 @@ class Solution {
         return recurse(head,n);
     }
 }
+/*
+ * another solution
+ * class Solution {
+    public int remove(ListNode node,int n){
+        if(node.next!=null){
+            int temp=remove(node.next,n);
+            if(temp==n){
+                node.next=node.next.next;  
+            }
+             return temp+1; 
+        }
+        else{
+            return 1;
+        }
+    }
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+       
+        int i= remove(head,n);
+        if(i==n){
+            head=head.next;
+        }
+        return head;
+        
+    }
+}
+ * 
+ */
