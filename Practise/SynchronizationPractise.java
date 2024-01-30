@@ -57,7 +57,21 @@ public void print(String name, int number){
 }
 public class SynchronizationPractise {
     public static void main(String[] args) {
+        /*
+        these will not run synchronously as we are passing new display objects to
+        all the three threads. Now as only one thread access different display.print() functions
+        there is no any race condition.
+
+         * Display display1=new Display();
+        Display display2=new Display();
+        Display display3=new Display();
+        Thread1 thread1=new Thread1(display1);
+        Thread2 thread2=new Thread2(display2);
+        Thread3 thread3=new Thread3(display3);
+         */
+        
         Display display=new Display();
+    
         Thread1 thread1=new Thread1(display);
         Thread2 thread2=new Thread2(display);
         Thread3 thread3=new Thread3(display);

@@ -3,6 +3,7 @@
         "Two_pointers",
         "Stack",
         "Sorting",
+        "Recursion",
         "Practise",
         "Maths",
         "Java",
@@ -10,6 +11,6 @@
         "Graphs",
         "DesignPatterns/Singleton",
         "Arrays",
-        "Recursion"
+        "Trie"
     ]
 }
