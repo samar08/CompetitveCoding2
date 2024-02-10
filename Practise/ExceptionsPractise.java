@@ -12,8 +12,8 @@ public class ExceptionsPractise
     }
     public static void orgFunction(){
           System.out.println("orgFunction called");
-        int res= 10/0;
-         //throw new ArithmeticException("arithmetic exception called");
+        //int res= 10/0;
+         throw new IOException("arithmetic exception called");
     }
     public static void readFile() throws FileNotFoundException{
       readThisFile();
@@ -39,23 +39,23 @@ public class ExceptionsPractise
     public static void throwcheck() throws Exception{
         //try{
             throw new Exception("Exception check");
-       // }
-        // catch(Exception e){
-        //    System.out.println(e);
-        // }
+      //  }
+      //   catch(Exception e){
+      //      System.out.println(e.getMessage());
+      //   }
         
     }
 
 	public static void main(String[] args) throws FileNotFoundException {
-	   // try{
-	      //  divide();
-	    //}
-	    // catch(Exception e){
-	    //     System.out.println(e.getMessage());
-	    // }
+	  try{
+	       divide();
+	   }
+	    catch(Exception e){
+	        System.out.println(e.getMessage());
+	    }
         try{
-        //readFile();
-        throwcheck();
+        readFile();
+        //throwcheck();
         }
         catch(Exception e){
             System.out.println(e.getMessage());
