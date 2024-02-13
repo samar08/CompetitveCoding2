@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Two_pointers",
+        "Trie",
         "Stack",
         "Sorting",
         "Recursion",
@@ -11,6 +12,6 @@
         "Graphs",
         "DesignPatterns/Singleton",
         "Arrays",
-        "Trie"
+        "A2OJLadders/Ladder11"
     ]
 }
