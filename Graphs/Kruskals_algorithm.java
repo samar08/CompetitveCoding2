@@ -192,5 +192,5 @@ class Graph {
 		graph.KruskalMST();
 	}
 }
-// This code is contributed by Aakash Hasija
+
 
