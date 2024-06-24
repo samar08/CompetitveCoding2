@@ -1,3 +1,7 @@
+/*
+ * the idea is to use merge technique in merge sort to traverse the arrays and add the values of the two arrays to their respective variable and the result will be the max of those two variables
+ */
+
 class Solution
 {
     /*You are required to complete this method
