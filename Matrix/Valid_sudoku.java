@@ -1,54 +1,54 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
-        int i,j,n=9,k1=0,k2=0;
-        for(i=0;i<n;i++){
-            HashSet<Character> s=new HashSet<Character>();
+        int i,j,m=board.length,n=board[0].length;
+        for(i=0;i<m;i++){
+            HashSet<Integer> set=new HashSet<>();
             for(j=0;j<n;j++){
                 if(board[i][j]!='.'){
-                    if(s.contains(board[i][j])){
-                        return false;
+                    if(set.contains(board[i][j]-'0')){
+                      return false;
                     }
                     else{
-                        s.add(board[i][j]);
-                    }
-                }
-                
-            }
-        }
-        for(j=0;j<n;j++){
-             HashSet<Character> s=new HashSet<Character>();
-            for(i=0;i<n;i++){
-                 if(board[i][j]!='.'){
-                    if(s.contains(board[i][j])){
-                        return false;
-                    }
-                    else{
-                        s.add(board[i][j]);
+                        set.add(board[i][j]-'0');
                     }
                 }
             }
         }
-        i=0;
-        while(i<n){
-            j=0;
-            while(j<n){
-                HashSet<Character> s=new HashSet<Character>();
-                for(k1=i;k1<i+3;k1++){
-                    for(k2=j;k2<j+3;k2++){
-                        if(board[k1][k2]!='.'){
-                            if(s.contains(board[k1][k2])){
-                        return false;
+         for(j=0;j<n;j++){
+            HashSet<Integer> set=new HashSet<>();
+            for(i=0;i<m;i++){
+                if(board[i][j]!='.'){
+                    if(set.contains(board[i][j]-'0')){
+                      return false;
                     }
                     else{
-                        s.add(board[k1][k2]);
+                        set.add(board[i][j]-'0');
                     }
+                }
+            }
+        }
+        for(i=0;i<3;i++){
+            
+            for(j=0;j<3;j++){
+                int rowstart=(i*3);
+                int colstart=(j*3);
+                HashSet<Integer> set=new HashSet<>();
+                for(int row=rowstart;row<rowstart+3;row++){
+                    for(int col=colstart;col<colstart+3;col++){
+                        if(board[row][col]!='.'){
+                            if(set.contains(board[row][col]-'0')){
+                                return false;
+                            }
+                            else{
+                                set.add(board[row][col]-'0');
+                            }
                         }
+                       
                     }
                 }
-                j+=3;
             }
-            i+=3;
         }
         return true;
+        
     }
 }
