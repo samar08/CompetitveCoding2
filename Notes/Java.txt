@@ -1,0 +1,4 @@
+
+Set
+To initialize a set in java-> Set<String> h = new HashSet<>(Arrays.asList("a", "b"));
+
