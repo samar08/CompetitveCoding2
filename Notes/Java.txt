@@ -2,3 +2,6 @@
 Set
 To initialize a set in java-> Set<String> h = new HashSet<>(Arrays.asList("a", "b"));
 
+To copy a set to a new set
+HashSet<Integer>temp=new HashSet<>(set);
+if we update the oldset the new set will not be updated
