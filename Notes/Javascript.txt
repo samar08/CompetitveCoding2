@@ -1,0 +1,3 @@
+
+convert string to float
+var float_val=parseFloat(string_val)
