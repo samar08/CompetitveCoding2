@@ -24,3 +24,6 @@ String_variable.toLowerCase();
 
 to trim 
 String_variable.trim();
+
+//length of array
+arr.length;
