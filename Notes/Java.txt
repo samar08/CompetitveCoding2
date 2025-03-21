@@ -23,3 +23,22 @@ Arrays.sort(arr,new Comparator<Type>(){
         }
     }
 })
+
+
+To iterate over a hashmap keys->
+Set<Character> keys=map.keySet();
+        Iterator it=keys.iterator();
+        while(it.hasNext()){
+            if(map.get(it.next())%2==0){
+                even++;
+            }
+            else{
+                odd++;
+            }
+        }
+
+To iterate over a string by usign :
+ for(Character c:s.toCharArray()){
+            map.put(c,map.getOrDefault(c,0)+1);
+ }
+ 
