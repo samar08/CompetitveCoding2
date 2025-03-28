@@ -27,3 +27,14 @@ String_variable.trim();
 
 //length of array
 arr.length;
+
+//set in javascript
+let myset = new Set();
+
+// Append new elements to the 
+// set using add() method
+myset.add(2);
+myset.add(20);
+
+// As 20 exists, it will return true
+console.log(myset.has(20));
