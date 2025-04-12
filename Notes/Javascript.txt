@@ -38,3 +38,9 @@ myset.add(20);
 
 // As 20 exists, it will return true
 console.log(myset.has(20));
+
+How to check if a string has a substring in javascript
+const string = "foo";
+const substring = "oo";
+
+console.log(string.includes(substring)); // true
