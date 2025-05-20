@@ -44,3 +44,14 @@ const string = "foo";
 const substring = "oo";
 
 console.log(string.includes(substring)); // true
+
+Maximum number in javascript
+let x = Number.MAX_VALUE;
+Number.MAX_VALUE returns the largest number possible in JavaScript.
+
+Number.MAX_VALUE has the value of 1.7976931348623157e+308.
+
+
+How to iterate through hashmap in javascript
+var map=new Map();
+map.forEach(()=>())
