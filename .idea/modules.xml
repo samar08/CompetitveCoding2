@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Facebookhackercup/2023/2023.iml" filepath="$PROJECT_DIR$/Facebookhackercup/2023/2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Facebookhackercup/2024/2024.iml" filepath="$PROJECT_DIR$/Facebookhackercup/2024/2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A2OJLadders/A2OJLadders.iml" filepath="$PROJECT_DIR$/A2OJLadders/A2OJLadders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CompetitveCoding2.iml" filepath="$PROJECT_DIR$/CompetitveCoding2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reply_hack_the_code/Reply_hack_the_code.iml" filepath="$PROJECT_DIR$/Reply_hack_the_code/Reply_hack_the_code.iml" />
+    </modules>
+  </component>
+</project>

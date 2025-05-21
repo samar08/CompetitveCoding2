@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Binary_search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Bit_manipulations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Graphs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Greedy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Hashing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Heaps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Maths" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Matrix" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Miscellaneous" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Modular_Arithmetic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SegmentTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Set" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sliding_window" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Trie" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Two_pointers" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
