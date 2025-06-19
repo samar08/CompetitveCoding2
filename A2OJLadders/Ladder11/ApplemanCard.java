@@ -7,7 +7,7 @@ public class ApplemanCard {
         int n=sc.nextInt();
         int k=sc.nextInt();
         String s=sc.next();
-        TreeMap<Character,Integer>map=new TreeMap<>();
+        HashMap<Character,Integer>map=new HashMap<>();
         int i;
         long out=0;
         for(i=0;i<n;i++){
