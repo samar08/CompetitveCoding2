@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/A2OJLadders/Math/pom.xml" />
+        <option value="$PROJECT_DIR$/A2OJLadders/Ladder12/pom.xml" />
+        <option value="$PROJECT_DIR$/A2OJLadders/Ladder12New/pom.xml" />
+        <option value="$PROJECT_DIR$/CSES/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
