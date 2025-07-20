@@ -11,6 +11,7 @@
     <modules>
         <module>Introductory</module>
         <module>DP</module>
+        <module>Graphs</module>
     </modules>
 
     <properties>
