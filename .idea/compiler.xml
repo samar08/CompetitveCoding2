@@ -10,6 +10,7 @@
         <module name="DP" />
         <module name="Ladder12New" />
         <module name="Introductory" />
+        <module name="Template" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
